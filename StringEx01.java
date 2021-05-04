@@ -17,7 +17,7 @@ public class StringEx01 {
 		System.out.println("a == b ? " + (a == b));//true
 		
 		String c = new String("10");
-		System.out.println("C = " + c);
+		System.out.println("C = " + c); // 10
 		System.out.println("a == c ? " + (a == c));//false
 		System.out.println("a.equals(c) ? " + a.equals(c));//true
 		//"10"과 new String("10")은 다른 객체
