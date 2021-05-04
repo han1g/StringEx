@@ -5,7 +5,7 @@ public class StringEx01 {
 		String x = "10";
 		String y = x;
 		y = "20";
-		System.out.println("X = " + x);
+		System.out.println("X = " + x); // 10
 		// String은 call by value??
 		// NO
 		// "10"과 "20"은 다른객체
